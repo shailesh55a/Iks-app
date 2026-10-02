@@ -1,0 +1,9 @@
+{
+  "name": "iksphere-node-server",
+  "private": true,
+  "type": "module",
+  "version": "5.0.0",
+  "scripts": {"start": "node server.js"},
+  "dependencies": {"express": "^5.1.0"},
+  "engines": {"node": ">=18"}
+}

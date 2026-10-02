@@ -1,0 +1,1391 @@
+{
+  "courses": [
+    {
+      "id": "course_ganita",
+      "title": "Ganita — Ancient Mathematics",
+      "sanskrit": "गणितशास्त्रम्",
+      "category": "Mathematics",
+      "icon": "📐",
+      "level": "Beginner → Advanced",
+      "duration": "4 weeks",
+      "description": "Shunya, place value, geometry, infinite series and the mathematical traditions of India.",
+      "era": "800 BCE – 1500 CE",
+      "highlights": [
+        "Sulba Sutra geometry",
+        "Zero and place value",
+        "Madhava series",
+        "Algebraic reasoning"
+      ],
+      "lessons": [
+        {
+          "id": "les_baudhayana",
+          "title": "Baudhayana's Theorem (Sulba Sutra)",
+          "sanskrit": "शुल्बसूत्रम्",
+          "overview": "Explore the geometric relation between the diagonal of a rectangle and its sides in the context of precise altar construction.",
+          "content": "The Baudhayana Sulba Sutra describes a diagonal-cord construction equivalent to the relationship a² + b² = c². Learners examine the geometry, construction logic, and the way measurement problems led to algorithmic thinking.",
+          "takeaways": [
+            "Relate the diagonal rule to right-triangle geometry",
+            "Understand cord-and-peg construction",
+            "Connect ancient measurement practices with modern coordinate geometry"
+          ],
+          "practical": "Use a grid, coordinates and a ruler to verify several integer right triangles.",
+          "minutes": 12,
+          "difficulty": "Beginner",
+          "iast": "Śulbasūtra",
+          "english_meaning": "Explore the geometric relation between the diagonal of a rectangle and its sides in the context of precise altar construction.",
+          "meter": "Term/text name; not a quotation",
+          "historical_context": "Visualize a right-triangle relation in the context of Sulba measurement.",
+          "modern_parallel": "The lesson connects cord-based geometric construction to a relation equivalent to a² + b² = c². Modern notation is used here as an explanatory bridge, not as a claim that the original text used modern algebraic symbols.",
+          "source": "Baudhāyana Śulbasūtra; geometric construction tradition. Modern relation a²+b²=c² is an explanatory notation, not the original notation.",
+          "concepts": [
+            "Sulba Sutra geometry",
+            "Zero and place value",
+            "Madhava series",
+            "Algebraic reasoning"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Baudhayana's Theorem (Sulba Sutra)”?",
+            "options": [
+              "Baudhayana's Theorem (Sulba Sutra)",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Baudhayana's Theorem (Sulba Sutra). Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_zero_shunya",
+          "title": "Shunya & Decimal Place Value",
+          "sanskrit": "शून्यम्",
+          "overview": "Trace the transition of zero into an operational mathematical digit and understand place-value notation.",
+          "content": "Brahmagupta's Brahmasphutasiddhanta (628 CE) records arithmetic rules involving zero, positive quantities and negative quantities. The lesson compares place-value notation with later positional number systems.",
+          "takeaways": [
+            "Explain why positional notation scales efficiently",
+            "Distinguish a placeholder from a numerical zero",
+            "Practice signed-number operations with zero"
+          ],
+          "practical": "Build a place-value table and convert numbers between decimal representations.",
+          "minutes": 15,
+          "difficulty": "Intermediate",
+          "iast": "śūnyam",
+          "english_meaning": "Trace the transition of zero into an operational mathematical digit and understand place-value notation.",
+          "meter": "Sanskrit term: “śūnya”",
+          "historical_context": "Brahmagupta describes arithmetic operations involving zero in the Brahmasphutasiddhanta.",
+          "modern_parallel": "The modern decimal system depends on positional notation and a symbol for zero; the historical development involved multiple stages and should not be reduced to a single inventor story.",
+          "source": "Brahmasphuṭasiddhānta (628 CE), especially its arithmetic rules involving zero; broader positional notation has a longer history.",
+          "concepts": [
+            "Sulba Sutra geometry",
+            "Zero and place value",
+            "Madhava series",
+            "Algebraic reasoning"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Shunya & Decimal Place Value”?",
+            "options": [
+              "Shunya & Decimal Place Value",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Shunya & Decimal Place Value. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_madhava_series",
+          "title": "Madhava's Infinite Series for Pi",
+          "sanskrit": "अनन्तश्रेणिः",
+          "overview": "Learn how the Kerala school used infinite series to approximate trigonometric functions and π.",
+          "content": "Madhava's work is associated with series expansions for sine, cosine and arctangent. A simple alternating series for π demonstrates how repeated approximation converges toward a mathematical constant.",
+          "takeaways": [
+            "Understand infinite-series notation",
+            "Estimate π with repeated terms",
+            "Relate series to numerical analysis"
+          ],
+          "practical": "Write a small Python loop that computes successive approximations of π.",
+          "minutes": 18,
+          "difficulty": "Advanced",
+          "iast": "ananta-śreṇiḥ",
+          "english_meaning": "Learn how the Kerala school used infinite series to approximate trigonometric functions and π.",
+          "meter": "Descriptive Sanskrit term: “infinite series”",
+          "historical_context": "Kerala-school mathematics is associated with series for sine, cosine and arctangent, which can be used to approximate π.",
+          "modern_parallel": "Power-series methods are directly analogous to numerical approximation, while the historical attribution must be tied to surviving Kerala-school texts and later commentarial evidence.",
+          "source": "Kerala mathematical-astronomical tradition; surviving evidence comes substantially through later reports because Madhava’s mathematical writings are not extant.",
+          "concepts": [
+            "Sulba Sutra geometry",
+            "Zero and place value",
+            "Madhava series",
+            "Algebraic reasoning"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Madhava's Infinite Series for Pi”?",
+            "options": [
+              "Madhava's Infinite Series for Pi",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Madhava's Infinite Series for Pi. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_pingala_binary",
+          "title": "Pingala, Prosody & Binary Patterns",
+          "sanskrit": "छन्दःशास्त्रम्",
+          "overview": "Use Sanskrit prosody to explore combinatorial patterns, binary-like representations and recursive counting.",
+          "content": "Pingala's prosodic analysis classifies long and short syllables and supports systematic enumeration. The lesson introduces binary patterns and combinatorics as a modern computational interpretation.",
+          "takeaways": [
+            "Encode two-state patterns",
+            "Count combinations recursively",
+            "Connect poetic metre with discrete structures"
+          ],
+          "practical": "Enumerate all 4-bit patterns with a simple program.",
+          "minutes": 13,
+          "difficulty": "Intermediate",
+          "iast": "Chandaḥśāstram",
+          "english_meaning": "Use Sanskrit prosody to explore combinatorial patterns, binary-like representations and recursive counting.",
+          "meter": "Text/tradition name: “science of metre”",
+          "historical_context": "Pingala’s prosody provides a systematic setting for counting patterns of long and short syllables.",
+          "modern_parallel": "A binary/combinatorial analogy is useful pedagogically, but the ancient prosodic system should not be equated wholesale with modern binary computing.",
+          "source": "Piṅgala’s Chandaḥsūtra / Chandaḥśāstra tradition; binary-like enumeration is a modern mathematical interpretation of two-state metrical patterns.",
+          "concepts": [
+            "Sulba Sutra geometry",
+            "Zero and place value",
+            "Madhava series",
+            "Algebraic reasoning"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Pingala, Prosody & Binary Patterns”?",
+            "options": [
+              "Pingala, Prosody & Binary Patterns",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Pingala, Prosody & Binary Patterns. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Baudhāyana Śulbasūtra",
+        "Brahmasphuṭasiddhānta",
+        "Kerala mathematical-astronomical tradition",
+        "Chandaḥsūtra / Chandaḥśāstra"
+      ]
+    },
+    {
+      "id": "course_khagola",
+      "title": "Khagola Shastra — Astronomy",
+      "sanskrit": "खगोलशास्त्रम्",
+      "category": "Astronomy",
+      "icon": "🔭",
+      "level": "Intermediate",
+      "duration": "3 weeks",
+      "description": "Celestial cycles, apparent motion, eclipses and mathematical astronomy.",
+      "era": "1200 BCE – 1700 CE",
+      "highlights": [
+        "Aryabhata's rotation model",
+        "Surya Siddhanta concepts",
+        "Eclipse reasoning",
+        "Observational instruments"
+      ],
+      "lessons": [
+        {
+          "id": "les_aryabhata_rotation",
+          "title": "Aryabhata & Earth's Rotation",
+          "sanskrit": "आर्यभटीयम्",
+          "overview": "Study the moving-boat analogy used to explain apparent stellar motion.",
+          "content": "Aryabhata describes how a moving observer can perceive stationary objects as moving in the opposite direction. The lesson uses this analogy to reason about daily apparent motion of the sky.",
+          "takeaways": [
+            "Separate apparent motion from physical motion",
+            "Use relative-motion reasoning",
+            "Describe axial rotation as a model"
+          ],
+          "practical": "Create a simple observer/reference-frame diagram.",
+          "minutes": 14,
+          "difficulty": "Intermediate",
+          "iast": "Āryabhaṭīyam",
+          "english_meaning": "Study the moving-boat analogy used to explain apparent stellar motion.",
+          "meter": "Text name: Āryabhaṭīya",
+          "historical_context": "Aryabhata’s moving-observer analogy is often discussed when explaining apparent daily motion of the sky.",
+          "modern_parallel": "Relative-motion reasoning is the modern parallel: apparent motion depends on the observer’s reference frame.",
+          "source": "Āryabhaṭīya; the lesson focuses on the moving-observer analogy for apparent stellar motion.",
+          "concepts": [
+            "Aryabhata's rotation model",
+            "Surya Siddhanta concepts",
+            "Eclipse reasoning",
+            "Observational instruments"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Aryabhata & Earth's Rotation”?",
+            "options": [
+              "Aryabhata & Earth's Rotation",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Aryabhata & Earth's Rotation. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_surya_siddhanta",
+          "title": "Surya Siddhanta & Eclipses",
+          "sanskrit": "सूर्यसिद्धान्तः",
+          "overview": "Explore mathematical models for celestial positions, calendars and eclipses.",
+          "content": "The Surya Siddhanta is a classical astronomical text containing rules for timekeeping, planetary positions and eclipse calculations. Students compare model-based prediction with observation.",
+          "takeaways": [
+            "Identify inputs needed for an astronomical model",
+            "Understand cycle-based calendars",
+            "Explain eclipse geometry with shadows"
+          ],
+          "practical": "Model a simple Sun–Earth–Moon eclipse alignment.",
+          "minutes": 16,
+          "difficulty": "Intermediate",
+          "iast": "Sūryasiddhāntaḥ",
+          "english_meaning": "Explore mathematical models for celestial positions, calendars and eclipses.",
+          "meter": "Text name: Sūryasiddhānta",
+          "historical_context": "Classical siddhanta astronomy uses computational rules for time, celestial positions and eclipse geometry.",
+          "modern_parallel": "The modern parallel is model-based astronomy: define parameters, compute positions, then compare predictions with observation.",
+          "source": "Sūryasiddhānta astronomical tradition; edition, date and transmission history are complex.",
+          "concepts": [
+            "Aryabhata's rotation model",
+            "Surya Siddhanta concepts",
+            "Eclipse reasoning",
+            "Observational instruments"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Surya Siddhanta & Eclipses”?",
+            "options": [
+              "Surya Siddhanta & Eclipses",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Surya Siddhanta & Eclipses. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Āryabhaṭīya",
+        "Sūryasiddhānta"
+      ]
+    },
+    {
+      "id": "course_ayurveda",
+      "title": "Ayurveda — Life & Health Traditions",
+      "sanskrit": "आयुर्वेदः",
+      "category": "Life Sciences",
+      "icon": "🌿",
+      "level": "Beginner",
+      "duration": "3 weeks",
+      "description": "History of Ayurveda, preventive routines and the surgical literature of Sushruta.",
+      "era": "1000 BCE – Present",
+      "highlights": [
+        "Charaka Samhita",
+        "Sushruta Samhita",
+        "Preventive routines",
+        "Historical surgical techniques"
+      ],
+      "lessons": [
+        {
+          "id": "les_sushruta_surgery",
+          "title": "Sushruta's Shalya Tantra",
+          "sanskrit": "सुश्रुतसंहिता",
+          "overview": "Review historical descriptions of reconstructive procedures, instruments and surgical preparation.",
+          "content": "Sushruta Samhita contains detailed descriptions of surgical instruments and procedures. The lesson treats these as historical evidence and separates documented practice from modern medical interpretation.",
+          "takeaways": [
+            "Recognize the scope of the surgical literature",
+            "Describe why instrument design matters",
+            "Distinguish historical claims from modern clinical practice"
+          ],
+          "practical": "Make a timeline of documented surgical instruments and their design goals.",
+          "minutes": 16,
+          "difficulty": "Intermediate",
+          "iast": "Suśrutasaṃhitā",
+          "english_meaning": "Review historical descriptions of reconstructive procedures, instruments and surgical preparation.",
+          "meter": "Text name: Suśrutasaṃhitā",
+          "historical_context": "Historical context for Sushruta's Shalya Tantra within the Ayurveda — Life & Health Traditions tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Suśrutasaṃhitā; modern historians treat its redaction and dating as matters of scholarly discussion.",
+          "concepts": [
+            "Charaka Samhita",
+            "Sushruta Samhita",
+            "Preventive routines",
+            "Historical surgical techniques"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Sushruta's Shalya Tantra”?",
+            "options": [
+              "Sushruta's Shalya Tantra",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Sushruta's Shalya Tantra. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_charaka_dinacharya",
+          "title": "Charaka & Preventive Routines",
+          "sanskrit": "चरकसंहिता",
+          "overview": "Explore daily and seasonal routines described in classical Ayurvedic literature.",
+          "content": "Charaka Samhita discusses maintaining health through routine, diet, activity and seasonal adaptation. Students analyze how historical preventive frameworks differ from evidence-based modern medicine.",
+          "takeaways": [
+            "Define preventive health in historical context",
+            "Compare routine-based frameworks",
+            "Practice source-critical reading"
+          ],
+          "practical": "Design a modern wellness checklist while clearly labeling evidence level.",
+          "minutes": 13,
+          "difficulty": "Beginner",
+          "iast": "Carakasaṃhitā",
+          "english_meaning": "Explore daily and seasonal routines described in classical Ayurvedic literature.",
+          "meter": "Text name: Carakasaṃhitā",
+          "historical_context": "Historical context for Charaka & Preventive Routines within the Ayurveda — Life & Health Traditions tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Carakasaṃhitā; historical regimen concepts are taught as a classical medical tradition, not as modern biomedical prescriptions.",
+          "concepts": [
+            "Charaka Samhita",
+            "Sushruta Samhita",
+            "Preventive routines",
+            "Historical surgical techniques"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Charaka & Preventive Routines”?",
+            "options": [
+              "Charaka & Preventive Routines",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Charaka & Preventive Routines. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Suśrutasaṃhitā",
+        "Carakasaṃhitā"
+      ]
+    },
+    {
+      "id": "course_sthapatya",
+      "title": "Sthapatya Veda — Architecture",
+      "sanskrit": "स्थापत्यवेदः",
+      "category": "Architecture",
+      "icon": "🏛️",
+      "level": "Intermediate",
+      "duration": "3 weeks",
+      "description": "Spatial planning, material logic, temple architecture and water-aware urban design.",
+      "era": "2600 BCE – 1400 CE",
+      "highlights": [
+        "Modular planning",
+        "Temple geometry",
+        "Material systems",
+        "Climate-aware design"
+      ],
+      "lessons": [
+        {
+          "id": "les_kailasa_temple",
+          "title": "Kailasa Temple: Rock-Cut Engineering",
+          "sanskrit": "कैलासमन्दिरम्",
+          "overview": "Understand subtractive construction and structural sequencing in rock-cut architecture.",
+          "content": "The Kailasa temple at Ellora is an example of monumental rock-cut construction. Students map the subtractive process, load paths and visual symmetry before comparing them with modern construction planning.",
+          "takeaways": [
+            "Think in subtractive construction sequences",
+            "Identify load-bearing geometry",
+            "Use sketches to communicate structural ideas"
+          ],
+          "practical": "Create a simple construction sequence storyboard.",
+          "minutes": 15,
+          "difficulty": "Intermediate",
+          "iast": "Kailāsamandiram",
+          "english_meaning": "Understand subtractive construction and structural sequencing in rock-cut architecture.",
+          "meter": "Descriptive Sanskrit name for the Kailāsa temple",
+          "historical_context": "Historical context for Kailasa Temple: Rock-Cut Engineering within the Sthapatya Veda — Architecture tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Ellora Cave 16 / Kailāsa temple. UNESCO describes it as the largest monolithic temple in the Ellora ensemble and dates the Brahmanical caves broadly to the 7th–10th centuries CE.",
+          "concepts": [
+            "Modular planning",
+            "Temple geometry",
+            "Material systems",
+            "Climate-aware design"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Kailasa Temple: Rock-Cut Engineering”?",
+            "options": [
+              "Kailasa Temple: Rock-Cut Engineering",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Kailasa Temple: Rock-Cut Engineering. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_vastu_mandala",
+          "title": "Vastu Mandala & Spatial Planning",
+          "sanskrit": "वास्तुमण्डलम्",
+          "overview": "Study grid-based spatial organization and how cultural intent can coexist with practical planning.",
+          "content": "Vastu texts use geometric grids and orientation frameworks. The lesson emphasizes interpretation, context, and the distinction between traditional design principles and empirically validated building performance.",
+          "takeaways": [
+            "Read a spatial grid",
+            "Translate symbolic geometry into layout",
+            "Evaluate design claims with evidence"
+          ],
+          "practical": "Prototype a small campus map using a modular grid.",
+          "minutes": 12,
+          "difficulty": "Intermediate",
+          "iast": "Vāstumāṇḍalam",
+          "english_meaning": "Study grid-based spatial organization and how cultural intent can coexist with practical planning.",
+          "meter": "Descriptive term: “Vāstu maṇḍala”",
+          "historical_context": "Historical context for Vastu Mandala & Spatial Planning within the Sthapatya Veda — Architecture tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Traditional Vāstu literature; this lesson keeps cultural design principles separate from claims about experimentally validated building performance.",
+          "concepts": [
+            "Modular planning",
+            "Temple geometry",
+            "Material systems",
+            "Climate-aware design"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Vastu Mandala & Spatial Planning”?",
+            "options": [
+              "Vastu Mandala & Spatial Planning",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Vastu Mandala & Spatial Planning. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Ellora Cave 16 (Kailāsa)",
+        "Traditional Vāstu literature"
+      ]
+    },
+    {
+      "id": "course_rasayana",
+      "title": "Rasayana & Dhatu Shastra — Materials",
+      "sanskrit": "धातुकर्म व रसायनम्",
+      "category": "Metallurgy",
+      "icon": "⚙️",
+      "level": "Intermediate",
+      "duration": "4 weeks",
+      "description": "Crucible steel, iron corrosion resistance and historical zinc distillation.",
+      "era": "1000 BCE – 1600 CE",
+      "highlights": [
+        "Wootz steel",
+        "Delhi Iron Pillar",
+        "Zawar zinc",
+        "Metal casting"
+      ],
+      "lessons": [
+        {
+          "id": "les_wootz_steel",
+          "title": "Wootz Crucible Steel",
+          "sanskrit": "उक्कु",
+          "overview": "Learn how crucible steel production created a high-carbon material valued across historical trade networks.",
+          "content": "Wootz describes a family of crucible-steel production traditions associated with South Asia. This lesson focuses on furnace logic, carbon control and the later scientific study of microstructure.",
+          "takeaways": [
+            "Explain crucible steel as a process",
+            "Identify variables in carbon control",
+            "Distinguish historical evidence from modern hype"
+          ],
+          "practical": "Draw a process diagram from ore to finished steel.",
+          "minutes": 15,
+          "difficulty": "Intermediate",
+          "iast": "ukku",
+          "english_meaning": "Learn how crucible steel production created a high-carbon material valued across historical trade networks.",
+          "meter": "Historical South Indian term associated with crucible steel",
+          "historical_context": "Historical context for Wootz Crucible Steel within the Rasayana & Dhatu Shastra — Materials tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Historical evidence for South Asian crucible steel (wootz), including early European scientific observations and later metallurgical studies; production methods varied by place and period.",
+          "concepts": [
+            "Wootz steel",
+            "Delhi Iron Pillar",
+            "Zawar zinc",
+            "Metal casting"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Wootz Crucible Steel”?",
+            "options": [
+              "Wootz Crucible Steel",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Wootz Crucible Steel. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_delhi_iron_pillar",
+          "title": "Delhi Iron Pillar & Corrosion",
+          "sanskrit": "लौहस्तम्भः",
+          "overview": "Use the Iron Pillar as a case study in long-lived wrought iron and protective surface layers.",
+          "content": "The Delhi Iron Pillar provides a historical case for studying wrought iron, phosphorus, environment and corrosion products. Students investigate how material composition and exposure influence passivation.",
+          "takeaways": [
+            "Define corrosion and passivation",
+            "Identify composition and environment as variables",
+            "Connect microstructure with engineering performance"
+          ],
+          "practical": "Compare corrosion factors for indoor and outdoor steel samples.",
+          "minutes": 14,
+          "difficulty": "Intermediate",
+          "iast": "lauha-stambhaḥ",
+          "english_meaning": "Use the Iron Pillar as a case study in long-lived wrought iron and protective surface layers.",
+          "meter": "Descriptive term: “iron pillar”",
+          "historical_context": "Historical context for Delhi Iron Pillar & Corrosion within the Rasayana & Dhatu Shastra — Materials tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "R. Balasubramaniam, “On the corrosion resistance of the Delhi iron pillar,” Corrosion Science 42(12), 2000, DOI 10.1016/S0010-938X(00)00046-9.",
+          "concepts": [
+            "Wootz steel",
+            "Delhi Iron Pillar",
+            "Zawar zinc",
+            "Metal casting"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Delhi Iron Pillar & Corrosion”?",
+            "options": [
+              "Delhi Iron Pillar & Corrosion",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Delhi Iron Pillar & Corrosion. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_zawar_zinc",
+          "title": "Zawar & Zinc Distillation",
+          "sanskrit": "यशदः",
+          "overview": "Explore historical retort-based zinc production and the engineering problem of vaporizing a low-boiling metal.",
+          "content": "Archaeological evidence from Zawar is used to discuss retorts, vapor transport and condensation. Students model the process using modern phase-change concepts.",
+          "takeaways": [
+            "Relate boiling point to process design",
+            "Explain retort distillation",
+            "Sketch a condenser pathway"
+          ],
+          "practical": "Design a safe classroom diagram of vapor-phase separation.",
+          "minutes": 15,
+          "difficulty": "Advanced",
+          "iast": "yaśadaḥ",
+          "english_meaning": "Explore historical retort-based zinc production and the engineering problem of vaporizing a low-boiling metal.",
+          "meter": "Sanskrit term used for zinc",
+          "historical_context": "Historical context for Zawar & Zinc Distillation within the Rasayana & Dhatu Shastra — Materials tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "K. T. M. Hegde, “Zinc and Brass Production in Ancient India,” Interdisciplinary Science Reviews 14(1), 1989, pp. 86–96; archaeological evidence from Zawar.",
+          "concepts": [
+            "Wootz steel",
+            "Delhi Iron Pillar",
+            "Zawar zinc",
+            "Metal casting"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Zawar & Zinc Distillation”?",
+            "options": [
+              "Zawar & Zinc Distillation",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Zawar & Zinc Distillation. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Historical South Asian crucible-steel studies",
+        "Delhi Iron Pillar metallurgical studies",
+        "Zawar zinc-production archaeology"
+      ]
+    },
+    {
+      "id": "course_darshana",
+      "title": "Darshana & Nyaya — Philosophy & Logic",
+      "sanskrit": "दर्शनम् व न्यायः",
+      "category": "Philosophy",
+      "icon": "🧠",
+      "level": "Advanced",
+      "duration": "2 weeks",
+      "description": "Reasoning, evidence, debate structures and the conceptual study of matter.",
+      "era": "800 BCE – 1200 CE",
+      "highlights": [
+        "Nyaya inference",
+        "Pramana",
+        "Vaisheshika",
+        "Argument mapping"
+      ],
+      "lessons": [
+        {
+          "id": "les_kanada_paramanu",
+          "title": "Kanada & Paramanu Theory",
+          "sanskrit": "परमाणुः",
+          "overview": "Read Vaisheshika ideas about atoms as an example of historical theorizing about matter.",
+          "content": "Vaisheshika texts classify substances and argue that matter can be analyzed into extremely small units. Students compare philosophical atomism with modern atomic theory without treating them as identical scientific models.",
+          "takeaways": [
+            "Explain historical atomism",
+            "Compare philosophical and experimental models",
+            "Use careful historical language"
+          ],
+          "practical": "Build a two-column comparison of historical concepts and modern particle theory.",
+          "minutes": 15,
+          "difficulty": "Advanced",
+          "iast": "paramāṇuḥ",
+          "english_meaning": "Read Vaisheshika ideas about atoms as an example of historical theorizing about matter.",
+          "meter": "Term: paramāṇu, an extremely small unit/atom in classical Indian philosophy",
+          "historical_context": "Historical context for Kanada & Paramanu Theory within the Darshana & Nyaya — Philosophy & Logic tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Nyāya–Vaiśeṣika atomism; the Stanford Encyclopedia of Philosophy treats Indian atomism as philosophical theorizing distinct from modern atomic physics.",
+          "concepts": [
+            "Nyaya inference",
+            "Pramana",
+            "Vaisheshika",
+            "Argument mapping"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Kanada & Paramanu Theory”?",
+            "options": [
+              "Kanada & Paramanu Theory",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Kanada & Paramanu Theory. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Vaiśeṣika Sūtra tradition",
+        "Nyāya–Vaiśeṣika commentarial tradition"
+      ]
+    },
+    {
+      "id": "course_vyakarana",
+      "title": "Vyakarana — Paninian Linguistics",
+      "sanskrit": "व्याकरणशास्त्रम्",
+      "category": "Linguistics & CS",
+      "icon": "📜",
+      "level": "Advanced",
+      "duration": "2 weeks",
+      "description": "Rule systems, linguistic abstraction, parsing and links to formal language theory.",
+      "era": "6th – 4th Century BCE",
+      "highlights": [
+        "Ashtadhyayi",
+        "Meta-rules",
+        "Phonetic classes",
+        "Formal grammars"
+      ],
+      "lessons": [
+        {
+          "id": "les_panini_grammar",
+          "title": "Panini's Ashtadhyayi as a Rule System",
+          "sanskrit": "अष्टाध्यायी",
+          "overview": "Explore how compact rules encode transformations and structured linguistic behavior.",
+          "content": "The Ashtadhyayi organizes concise sutras and meta-rules. Modern computing comparisons are useful as analogies, especially for formal grammars and rule-based processing, but the historical system remains its own linguistic tradition.",
+          "takeaways": [
+            "Identify rule-based transformations",
+            "Understand meta-rules and context",
+            "Compare formal grammar as an analogy"
+          ],
+          "practical": "Create a tiny grammar for a toy language and test sample strings.",
+          "minutes": 17,
+          "difficulty": "Advanced",
+          "iast": "Aṣṭādhyāyī",
+          "english_meaning": "Explore how compact rules encode transformations and structured linguistic behavior.",
+          "meter": "Text name: “eight chapters”",
+          "historical_context": "Historical context for Panini's Ashtadhyayi as a Rule System within the Vyakarana — Paninian Linguistics tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Pāṇini’s Aṣṭādhyāyī; comparisons with formal grammars are modern analogies, not an identity claim.",
+          "concepts": [
+            "Ashtadhyayi",
+            "Meta-rules",
+            "Phonetic classes",
+            "Formal grammars"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Panini's Ashtadhyayi as a Rule System”?",
+            "options": [
+              "Panini's Ashtadhyayi as a Rule System",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Panini's Ashtadhyayi as a Rule System. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_panini_parser",
+          "title": "From Sutras to Parsing",
+          "sanskrit": "व्याकरणम्",
+          "overview": "Turn linguistic rules into a small parser and visualize a derivation sequence.",
+          "content": "This applied lesson shows how a sequence of deterministic rewrite rules can be represented in code. It helps bridge classical grammar study with modern computational linguistics.",
+          "takeaways": [
+            "Represent rules as data",
+            "Trace a derivation",
+            "Test edge cases"
+          ],
+          "practical": "Implement a mini parser in Python using dictionaries and simple recursion.",
+          "minutes": 18,
+          "difficulty": "Advanced",
+          "iast": "vyākaraṇam",
+          "english_meaning": "Turn linguistic rules into a small parser and visualize a derivation sequence.",
+          "meter": "Term: grammar",
+          "historical_context": "Historical context for From Sutras to Parsing within the Vyakarana — Paninian Linguistics tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Pāṇinian grammatical tradition; modern parser examples in this lesson are pedagogical exercises inspired by rule-based structure.",
+          "concepts": [
+            "Ashtadhyayi",
+            "Meta-rules",
+            "Phonetic classes",
+            "Formal grammars"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “From Sutras to Parsing”?",
+            "options": [
+              "From Sutras to Parsing",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on From Sutras to Parsing. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Aṣṭādhyāyī",
+        "Śiva Sūtras",
+        "Vyākaraṇa commentarial tradition"
+      ]
+    },
+    {
+      "id": "course_krishi",
+      "title": "Krishi — Agriculture & Water Systems",
+      "sanskrit": "कृषिशास्त्रम्",
+      "category": "Agriculture & Water",
+      "icon": "🌾",
+      "level": "Beginner",
+      "duration": "3 weeks",
+      "description": "Historical plant care, bio-inputs and sustainable water management case studies.",
+      "era": "1000 BCE – Present",
+      "highlights": [
+        "Vrikshayurveda",
+        "Soil care",
+        "Bio-inputs",
+        "Kallanai"
+      ],
+      "lessons": [
+        {
+          "id": "les_vrikshayurveda_kunapajala",
+          "title": "Vrikshayurveda & Kunapajala",
+          "sanskrit": "वृक्षायुर्वेदः",
+          "overview": "Study a historical plant-care text and its descriptions of fermented organic inputs.",
+          "content": "Surapala's Vrikshayurveda is a historical source on arboriculture. Kunapajala is described as a fermented organic preparation; modern claims about its agronomic effectiveness should be tested rather than assumed.",
+          "takeaways": [
+            "Read agricultural texts as historical sources",
+            "Describe fermented organic inputs",
+            "Design a small controlled comparison"
+          ],
+          "practical": "Create a controlled garden experiment plan with clearly defined variables.",
+          "minutes": 14,
+          "difficulty": "Beginner",
+          "iast": "Vṛkṣāyurvedaḥ",
+          "english_meaning": "Study a historical plant-care text and its descriptions of fermented organic inputs.",
+          "meter": "Term: Vṛkṣāyurveda / knowledge concerning plants",
+          "historical_context": "Historical context for Vrikshayurveda & Kunapajala within the Krishi — Agriculture & Water Systems tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Surapāla’s Vṛkṣāyurveda tradition. Claims about agronomic effectiveness of historical preparations should be experimentally tested rather than assumed.",
+          "concepts": [
+            "Vrikshayurveda",
+            "Soil care",
+            "Bio-inputs",
+            "Kallanai"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Vrikshayurveda & Kunapajala”?",
+            "options": [
+              "Vrikshayurveda & Kunapajala",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Vrikshayurveda & Kunapajala. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_grand_anicut_kallanai",
+          "title": "Kallanai (Grand Anicut) & River Engineering",
+          "sanskrit": "जलसेतुः",
+          "overview": "Use the Kaveri river diversion structure as a case study in long-lived hydraulic engineering.",
+          "content": "Kallanai is a historic water-diversion structure on the Kaveri. Students analyze flow, foundation, diversion and maintenance as engineering concepts.",
+          "takeaways": [
+            "Identify goals of a diversion structure",
+            "Think about hydraulic flow paths",
+            "Use diagrams to analyze infrastructure"
+          ],
+          "practical": "Sketch an idealized diversion barrage and label flow directions.",
+          "minutes": 14,
+          "difficulty": "Intermediate",
+          "iast": "jalasetuḥ",
+          "english_meaning": "Use the Kaveri river diversion structure as a case study in long-lived hydraulic engineering.",
+          "meter": "Descriptive term: water barrier / hydraulic crossing",
+          "historical_context": "Historical context for Kallanai (Grand Anicut) & River Engineering within the Krishi — Agriculture & Water Systems tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Historical Kallanai / Grand Anicut record on the Kaveri. Traditional attribution to Karikāla Chola is widely reported; exact dating and phases require historical caution.",
+          "concepts": [
+            "Vrikshayurveda",
+            "Soil care",
+            "Bio-inputs",
+            "Kallanai"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Kallanai (Grand Anicut) & River Engineering”?",
+            "options": [
+              "Kallanai (Grand Anicut) & River Engineering",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Kallanai (Grand Anicut) & River Engineering. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Vṛkṣāyurveda tradition",
+        "Kaveri irrigation history"
+      ]
+    },
+    {
+      "id": "course_jala",
+      "title": "Jala Prabandhana — Water Engineering",
+      "sanskrit": "जलप्रबन्धनम्",
+      "category": "Water Engineering",
+      "icon": "💧",
+      "level": "Intermediate",
+      "duration": "3 weeks",
+      "description": "Water harvesting, reservoirs, drainage and hydraulic engineering in historical South Asian contexts.",
+      "era": "3rd millennium BCE – medieval India",
+      "highlights": [
+        "Dholavira water systems",
+        "Kallanai / Grand Anicut",
+        "Reservoir & channel design",
+        "Monsoon-aware planning"
+      ],
+      "scholars": [
+        "Karikala Chola",
+        "Indus engineers"
+      ],
+      "lessons": [
+        {
+          "id": "les_dholavira_water",
+          "title": "Dholavira: Reservoirs & Stormwater",
+          "sanskrit": "धोलावीरा",
+          "overview": "Understand how urban water capture, storage and drainage can be coordinated in an arid setting.",
+          "content": "The archaeological remains at Dholavira include reservoirs, channels and water-management structures. The lesson asks learners to reason about catchment, storage, overflow and seasonal variability.",
+          "takeaways": [
+            "Map inflow and storage",
+            "Separate drinking and stormwater goals",
+            "Design for seasonal rainfall variability"
+          ],
+          "practical": "Sketch a small catchment → channel → reservoir system and label overflow paths.",
+          "minutes": 18,
+          "difficulty": "Intermediate",
+          "iast": "Dholāvīrā",
+          "english_meaning": "Understand how urban water capture, storage and drainage can be coordinated in an arid setting.",
+          "meter": "Proper place name: Dholavira",
+          "historical_context": "Historical context for Dholavira: Reservoirs & Stormwater within the Jala Prabandhana — Water Engineering tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "UNESCO World Heritage Centre, “Dholavira: a Harappan City”; the site includes reservoirs, drainage and water-management features.",
+          "concepts": [
+            "Dholavira water systems",
+            "Kallanai / Grand Anicut",
+            "Reservoir & channel design",
+            "Monsoon-aware planning"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Dholavira: Reservoirs & Stormwater”?",
+            "options": [
+              "Dholavira: Reservoirs & Stormwater",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Dholavira: Reservoirs & Stormwater. Use the surrounding historical context and activity to deepen the idea."
+          }
+        },
+        {
+          "id": "les_kallanai",
+          "title": "Kallanai & River Diversion",
+          "sanskrit": "जलविन्यासः",
+          "overview": "Study the engineering logic of a low diversion structure and its irrigation role.",
+          "content": "Kallanai (Grand Anicut) is a historic stone diversion structure on the Kaveri. This lesson focuses on the engineering problem of routing river water toward irrigation channels while managing flow and sediment.",
+          "takeaways": [
+            "Distinguish a diversion weir from a storage dam",
+            "Reason about water level and channel intake",
+            "Connect infrastructure to agricultural demand"
+          ],
+          "practical": "Create a conceptual river cross-section with a diversion weir and irrigation branch.",
+          "minutes": 16,
+          "difficulty": "Intermediate",
+          "iast": "jalavinyāsaḥ",
+          "english_meaning": "Study the engineering logic of a low diversion structure and its irrigation role.",
+          "meter": "Descriptive term: water arrangement / system",
+          "historical_context": "Historical context for Kallanai & River Diversion within the Jala Prabandhana — Water Engineering tradition.",
+          "modern_parallel": "Compare the historical practice with a modern engineering, scientific or computational analogue while keeping the two contexts distinct.",
+          "source": "Historical Kallanai / Grand Anicut record; the lesson presents hydraulic reasoning as an engineering study, not as a precise reconstruction of ancient design calculations.",
+          "concepts": [
+            "Dholavira water systems",
+            "Kallanai / Grand Anicut",
+            "Reservoir & channel design",
+            "Monsoon-aware planning"
+          ],
+          "checkpoint": {
+            "question": "What is the central focus of “Kallanai & River Diversion”?",
+            "options": [
+              "Kallanai & River Diversion",
+              "A modern unrelated topic",
+              "A fictional story",
+              "None of the above"
+            ],
+            "answer_index": 0,
+            "explanation": "This lesson focuses on Kallanai & River Diversion. Use the surrounding historical context and activity to deepen the idea."
+          }
+        }
+      ],
+      "texts": [
+        "Dholavira archaeological record",
+        "Kallanai / Grand Anicut historical record"
+      ]
+    }
+  ],
+  "scholars": [
+    {
+      "id": "sch_baudhayana",
+      "name": "Baudhayana",
+      "sanskrit": "बोधायन",
+      "era": "c. 800 BCE",
+      "domain": "Geometry & ritual measurement",
+      "work": "Baudhayana Sulba Sutra",
+      "contribution": "Geometric constructions for precise altar layouts and diagonal relations.",
+      "location": "Indian subcontinent",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_aryabhata",
+      "name": "Aryabhata",
+      "sanskrit": "आर्यभट",
+      "era": "476–550 CE",
+      "domain": "Mathematics & astronomy",
+      "work": "Aryabhatiya",
+      "contribution": "Mathematical astronomy, trigonometry and a model based on Earth's rotation.",
+      "location": "Kusumapura / Pataliputra tradition",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_sushruta",
+      "name": "Sushruta",
+      "sanskrit": "सुश्रुत",
+      "era": "c. 600 BCE",
+      "domain": "Surgery & medicine",
+      "work": "Sushruta Samhita",
+      "contribution": "Detailed historical surgical literature and instrument descriptions.",
+      "location": "Indian subcontinent",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_panini",
+      "name": "Panini",
+      "sanskrit": "पाणिनि",
+      "era": "c. 5th–4th century BCE",
+      "domain": "Linguistics",
+      "work": "Ashtadhyayi",
+      "contribution": "Compact rule system for Sanskrit grammar.",
+      "location": "Northwestern Indian linguistic tradition",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_brahmagupta",
+      "name": "Brahmagupta",
+      "sanskrit": "ब्रह्मगुप्त",
+      "era": "598–c. 668 CE",
+      "domain": "Mathematics & astronomy",
+      "work": "Brahmasphutasiddhanta",
+      "contribution": "Formal arithmetic rules involving zero and signed quantities.",
+      "location": "Bhinasmal, Rajasthan tradition",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_kanada",
+      "name": "Kanada",
+      "sanskrit": "कणाद",
+      "era": "c. 600 BCE",
+      "domain": "Philosophy & natural theory",
+      "work": "Vaisheshika Sutras",
+      "contribution": "Philosophical analysis of matter, categories and atomic theory.",
+      "location": "Classical Indian philosophical tradition",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_charaka",
+      "name": "Charaka",
+      "sanskrit": "चरक",
+      "era": "c. 1st millennium BCE / early CE traditions",
+      "domain": "Medicine & preventive health",
+      "work": "Charaka Samhita",
+      "contribution": "Classical medical compendium covering diagnosis, therapeutics, diet, conduct and preventive care.",
+      "location": "Northwestern / northern India (traditional attribution)",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_bhaskara2",
+      "name": "Bhaskara II",
+      "sanskrit": "भास्कराचार्य",
+      "era": "1114–c. 1185 CE",
+      "domain": "Mathematics & astronomy",
+      "work": "Siddhanta Shiromani",
+      "contribution": "Major medieval work in algebra, arithmetic, geometry and mathematical astronomy.",
+      "location": "Vijjadavida / western-deccan intellectual milieu",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    },
+    {
+      "id": "sch_madhava",
+      "name": "Madhava of Sangamagrama",
+      "sanskrit": "माधवः सङ्गमग्रामस्य",
+      "era": "c. 14th–15th century CE",
+      "domain": "Mathematics & astronomy",
+      "work": "Kerala mathematical-astronomical school works",
+      "contribution": "Associated with early infinite-series expansions for trigonometric functions and π in the Kerala school tradition.",
+      "location": "Kerala, South India",
+      "quote": "",
+      "quote_note": "No quotation is shown here unless it can be securely attributed to a primary text."
+    }
+  ],
+  "paths": [
+    {
+      "id": "path_philosophy_linguistics_botany",
+      "title": "Atomic Philosophy, Linguistics & Botany",
+      "level": "Intermediate",
+      "weeks": 3,
+      "course_ids": [
+        "course_darshana",
+        "course_vyakarana",
+        "course_krishi"
+      ]
+    },
+    {
+      "id": "path_math_algo",
+      "title": "Vedic Mathematics & Algorithmic Arithmetic",
+      "level": "Beginner → Intermediate",
+      "weeks": 4,
+      "course_ids": [
+        "course_ganita"
+      ]
+    },
+    {
+      "id": "path_celestial",
+      "title": "Celestial Indian Astronomy & Siddhantas",
+      "level": "Intermediate",
+      "weeks": 3,
+      "course_ids": [
+        "course_khagola"
+      ]
+    },
+    {
+      "id": "path_ayurveda",
+      "title": "Ayurveda & Preventive Longevity",
+      "level": "Intermediate",
+      "weeks": 3,
+      "course_ids": [
+        "course_ayurveda"
+      ]
+    },
+    {
+      "id": "path_materials",
+      "title": "Ancient Indian Metallurgy & Chemical Sciences",
+      "level": "Intermediate",
+      "weeks": 4,
+      "course_ids": [
+        "course_rasayana"
+      ]
+    },
+    {
+      "id": "path_engineering",
+      "title": "Sacred Architecture & Civil Engineering",
+      "level": "Intermediate",
+      "weeks": 4,
+      "course_ids": [
+        "course_sthapatya",
+        "course_jala"
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": "badge_first_step",
+      "name": "First Step",
+      "icon": "🌱",
+      "description": "Complete your first lesson",
+      "condition": "1 lesson completed"
+    },
+    {
+      "id": "badge_quiz_master",
+      "name": "Quiz Master",
+      "icon": "🏆",
+      "description": "Score 80% or higher on a quiz",
+      "condition": "80%+ quiz score"
+    },
+    {
+      "id": "badge_scholar",
+      "name": "Scholar",
+      "icon": "📚",
+      "description": "Complete 5 lessons",
+      "condition": "5 lessons completed"
+    },
+    {
+      "id": "badge_pathfinder",
+      "name": "Pathfinder",
+      "icon": "🧭",
+      "description": "Finish all courses in a learning path",
+      "condition": "Path completed"
+    },
+    {
+      "id": "badge_teacher",
+      "name": "Curriculum Builder",
+      "icon": "🧑‍🏫",
+      "description": "Create your first course as a teacher",
+      "condition": "1 course created"
+    },
+    {
+      "id": "badge_math_pioneer",
+      "name": "Vedic Math Pioneer",
+      "icon": "📐",
+      "description": "Complete the core mathematics course.",
+      "condition": "Complete all Ganita lessons"
+    },
+    {
+      "id": "badge_stars",
+      "name": "Master of Stars",
+      "icon": "🌟",
+      "description": "Complete the astronomy course.",
+      "condition": "Complete all Khagola lessons"
+    },
+    {
+      "id": "badge_ayurveda",
+      "name": "Ayurvedic Healer",
+      "icon": "🌿",
+      "description": "Complete the Ayurveda course.",
+      "condition": "Complete all Ayurveda lessons"
+    },
+    {
+      "id": "badge_metallurgy",
+      "name": "Metallurgy Adept",
+      "icon": "⚒️",
+      "description": "Complete the materials course.",
+      "condition": "Complete all metallurgy lessons"
+    },
+    {
+      "id": "badge_quiz_champion",
+      "name": "Quiz Champion",
+      "icon": "🧠",
+      "description": "Accumulate high quiz performance.",
+      "condition": "Score 90%+ three times"
+    },
+    {
+      "id": "badge_consistent",
+      "name": "Consistent Seeker",
+      "icon": "🔥",
+      "description": "Build a seven-day study streak.",
+      "condition": "7-day streak"
+    }
+  ],
+  "daily_wisdom": [
+    {
+      "id": "wisdom_gita_250",
+      "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम्॥ २.५०॥",
+      "iast": "buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte | tasmād yogāya yujyasva yogaḥ karmasu kauśalam || 2.50 ||",
+      "translation": "Possessed of wisdom, one abandons both good and evil; therefore devote yourself to yoga, for yoga is skill in action.",
+      "source": "Bhagavad Gita 2.50",
+      "url": "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=2&field_nsutra_value=50&language=dv",
+      "word_by_word": [
+        "buddhi-yuktaḥ — endowed with wisdom",
+        "jahāti — abandons",
+        "iha — here/in this life",
+        "tasmāt — therefore",
+        "yogāya — to yoga",
+        "karmasu — in actions",
+        "kauśalam — skill"
+      ]
+    },
+    {
+      "id": "wisdom_rigveda_1891",
+      "sanskrit": "आ नो भद्राः क्रतवो यन्तु विश्वतः॥",
+      "iast": "ā no bhadrāḥ kratavo yantu viśvataḥ ||",
+      "translation": "May noble thoughts / good inspirations come to us from every side.",
+      "source": "Rigveda 1.89.1",
+      "url": "https://rigveda.sanatana.in/describe/rikMandala/1.89.1",
+      "word_by_word": [
+        "ā — toward us",
+        "naḥ — our/us",
+        "bhadrāḥ — auspicious/good",
+        "kratavaḥ — intentions/acts of thought",
+        "viśvataḥ — from all sides"
+      ]
+    },
+    {
+      "id": "wisdom_gita_247",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+      "iast": "karmaṇy evādhikāras te mā phaleṣu kadācana ||",
+      "translation": "Your sphere is action, never the fruits of action.",
+      "source": "Bhagavad Gita 2.47",
+      "url": "https://www.gitasupersite.iitk.ac.in/srimad?field_chapter_value=2&field_nsutra_value=47&language=dv",
+      "word_by_word": [
+        "karmaṇi — in action",
+        "eva — indeed",
+        "adhikāraḥ — entitlement/sphere of action",
+        "te — your",
+        "mā — not",
+        "phaleṣu — in the fruits",
+        "kadācana — ever"
+      ]
+    },
+    {
+      "id": "wisdom_vidya_subhashita",
+      "sanskrit": "विद्या ददाति विनयं विनयाद् याति पात्रताम्।",
+      "iast": "vidyā dadāti vinayaṁ vinayād yāti pātratām |",
+      "translation": "Learning gives humility; from humility comes worthiness.",
+      "source": "Traditional Subhāṣita verse; attribution varies",
+      "url": "",
+      "word_by_word": [
+        "vidyā — learning",
+        "dadāti — gives",
+        "vinayam — humility",
+        "vinayāt — from humility",
+        "pātratām — worthiness"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc_zero",
+      "course_id": "course_ganita",
+      "category": "Mathematics",
+      "front": "Śūnya / zero",
+      "back": "An operational numeral and arithmetic concept in later Indian mathematical texts.",
+      "parallel": "Positional arithmetic needs a symbol/value for an empty place."
+    },
+    {
+      "id": "fc_baudhayana",
+      "course_id": "course_ganita",
+      "category": "Geometry",
+      "front": "Baudhayana Sulba Sutra",
+      "back": "A geometric ritual text with cord-based constructions and diagonal relations.",
+      "parallel": "Modern coordinate geometry formalizes the same relation with equations."
+    },
+    {
+      "id": "fc_madhava",
+      "course_id": "course_ganita",
+      "category": "Analysis",
+      "front": "Kerala series",
+      "back": "Series expansions associated with Kerala-school mathematics provide numerical approximations for trigonometric functions and π.",
+      "parallel": "Numerical analysis studies truncation error and convergence."
+    },
+    {
+      "id": "fc_aryabhata",
+      "course_id": "course_khagola",
+      "category": "Astronomy",
+      "front": "Aryabhata’s rotation model",
+      "back": "A moving-observer analogy is used to explain apparent motion of the sky.",
+      "parallel": "Reference frames explain apparent versus relative motion."
+    },
+    {
+      "id": "fc_surya",
+      "course_id": "course_khagola",
+      "category": "Astronomy",
+      "front": "Siddhanta astronomy",
+      "back": "Computational astronomy organized rules for calendars and celestial positions.",
+      "parallel": "Modern ephemerides are also model-based computational predictions."
+    },
+    {
+      "id": "fc_tridosha",
+      "course_id": "course_ayurveda",
+      "category": "Life Sciences",
+      "front": "Tridoṣa",
+      "back": "A classical Ayurvedic framework using vāta, pitta and kapha to organize health descriptions.",
+      "parallel": "Study it as a historical medical framework, not as a synonym for modern physiology."
+    },
+    {
+      "id": "fc_sushruta",
+      "course_id": "course_ayurveda",
+      "category": "Surgery",
+      "front": "Suśruta Saṁhitā",
+      "back": "Classical surgical literature with descriptions of instruments, procedures and wound care.",
+      "parallel": "Compare historical procedural knowledge with modern surgery history."
+    },
+    {
+      "id": "fc_wootz",
+      "course_id": "course_rasayana",
+      "category": "Metallurgy",
+      "front": "Wootz steel",
+      "back": "A crucible-steel tradition from South Asia known for distinctive microstructure and blade performance.",
+      "parallel": "Modern materials science studies alloy composition, processing and microstructure."
+    },
+    {
+      "id": "fc_zawar",
+      "course_id": "course_rasayana",
+      "category": "Metallurgy",
+      "front": "Zawar zinc distillation",
+      "back": "Historical zinc production in Rajasthan used distillation techniques suited to zinc’s volatility.",
+      "parallel": "Distillation separates substances using differences in volatility and phase behavior."
+    },
+    {
+      "id": "fc_vastu",
+      "course_id": "course_sthapatya",
+      "category": "Architecture",
+      "front": "Vāstu Puruṣa Maṇḍala",
+      "back": "A geometric planning diagram used in South Asian architectural traditions.",
+      "parallel": "Modern site planning also uses grids, orientation and modular layouts."
+    },
+    {
+      "id": "fc_panini",
+      "course_id": "course_vyakarana",
+      "category": "Linguistics",
+      "front": "Aṣṭādhyāyī",
+      "back": "Panini’s compact grammatical rule system describes Sanskrit morphology and syntax.",
+      "parallel": "Formal grammars offer a useful computational analogy, while historical linguistic theory remains distinct from BNF."
+    },
+    {
+      "id": "fc_karikala",
+      "course_id": "course_jala",
+      "category": "Water Engineering",
+      "front": "Kallanai / Grand Anicut",
+      "back": "A historic Kaveri diversion structure associated with irrigation management.",
+      "parallel": "Diversion weirs route water; their design must consider flow, stability and sediment."
+    }
+  ]
+}
